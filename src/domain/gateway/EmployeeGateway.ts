@@ -1,4 +1,4 @@
-import { Employee } from "../entity/Employe";
+import { Employee } from "../entity/Employee";
 
 export interface EmployeeGateway {
     save(employee: Employee): Promise<void>;
